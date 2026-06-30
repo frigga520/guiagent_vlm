@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+
+# venv
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# 运行时数据（开发者本地各异，不上库）
+data/skills.json
+data/state_graph.json
+data/memory.json
+data/screens/
+logs/
+
+# 第三方 APK（用户自己下载即可，不必随仓库分发）
+ADBKeyboard.apk
+
+# 密钥 / 配置
+.env
+secrets.yaml
+credentials.yaml
+
+# 杂项
+*.log
